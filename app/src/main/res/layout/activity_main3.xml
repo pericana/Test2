@@ -4,32 +4,29 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="hr.math.test2.MainActivity"
+    tools:context="hr.math.test2.Main3Activity"
     android:orientation="vertical">
 
-    <EditText
-        android:id="@+id/mojTekst"
-        android:layout_width="match_parent"
+    <Button
+        android:id="@+id/buttonDownload"
+        android:text="Image Download"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content" />
 
-    <Button
-        android:id="@+id/mojGumbSave"
-        android:text="Save"
+    <ImageView
+        android:id="@+id/mojaSlika"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content" />
 
     <Button
-        android:id="@+id/mojGumbLoad"
-        android:text="Load"
+        android:id="@+id/buttonDownloadText"
+        android:text="Text Download"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content" />
 
     <TextView
-        android:id="@+id/mojTekstIspis"
+        android:id="@+id/skinutiTekst"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content" />
-
-
-
 
 </LinearLayout>

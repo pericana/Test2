@@ -4,32 +4,20 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="hr.math.test2.MainActivity"
+    tools:context="hr.math.test2.Main2Activity"
     android:orientation="vertical">
 
-    <EditText
-        android:id="@+id/mojTekst"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
-
     <Button
-        android:id="@+id/mojGumbSave"
-        android:text="Save"
+        android:id="@+id/mojGumbSMS"
+        android:text="Send SMS"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content" />
 
     <Button
-        android:id="@+id/mojGumbLoad"
-        android:text="Load"
+        android:id="@+id/mojGumbMail"
+        android:text="Send mail"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content" />
-
-    <TextView
-        android:id="@+id/mojTekstIspis"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content" />
-
-
 
 
 </LinearLayout>
